@@ -2,12 +2,11 @@
 
 This repository contains automation solutions for OWASP labs based on PortSwigger problems. The purpose of this project is to provide automated solutions for various OWASP labs, making it easier to learn and understand common security vulnerabilities and their corresponding mitigation techniques.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Getting Started](#getting-started)
-- [Directory Structure](#directory-structure)
-- [Contributing](#contributing)
+## Disclaimer:
+- This repository is an independent project and is not affiliated with or endorsed by PortSwigger.
+- This repository contains automation solutions for OWASP labs based on PortSwigger's web application security testing tool, Burp Suite. and not to misuse any scope. 
+and not limited to just that but this repo going to have common solutions for many automations that we may use in pentesting.
+- Name portswigger is used just for stating the problem which this automation would solve.
 
 ## Introduction
 
