@@ -2,6 +2,8 @@
 This automation helps us in ssrf attack on localhost of the application
 makes use of the cart item info as reference url and hits a delete user 
 url. thus explots the application.
+python3 lab01.py "url to be exploited"
+url: https://0a0f002e037ee37481a27a9600d10011.web-security-academy.net/
 '''
 import requests
 import sys
