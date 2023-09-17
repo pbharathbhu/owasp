@@ -1,0 +1,53 @@
+Information leakage:
+    - based on erroneous api, version control system, illegal value attack on server param.
+    - Feroxbuster is an useful automation that helps parse through different files of robots.txt 
+Broken Access control: [Access or modify information beyond limits]
+    - with cookie hijacking,where you just use a specific helpful cookie to get access to the unauthorized user.
+    - Horizontal access control 
+    - IDOR - Insecure Direct Object Reference [you can just access to the document you are not authorized by changing the url]
+    - User Role Change -This can be done via TRACE method of http and find out what is blocking our request.
+    - Directory path traversal
+    - Absolute path traversal
+    - File path traversal with null byte (%00 can make ignore everything after it)
+    - Bypass Filtering [which we can do by adding duplication .... in place of .. ]
+    - CSRF falls under broken access control
+    - OAuth 2.0
+
+INJECTION vulnerabilities:
+    - OS Command Execution: can be used along with body parameters
+    - Blind OS command execution
+XSS:
+    - HTML Injection
+    - Reflected [which creates a malicious link]
+    - Stored [which stores a malicious link in db like a comment on a website]
+    - DOM based [no logs/ filter/ server communication]
+    - TextBox and DropDown are major areas of exploitation
+    - Wappalyzer extension on browser helps us determine which technologies used for developing a website.
+
+    -Bypass basic filtering, single quote filtering, advanced filtering, server side filtering, 
+    -Content Security Page
+
+SQL Injections: 
+    - How to detect
+    - Bypassing login pages
+    - Union attack - Verify number of columns loaded 
+    - CHECK DB, CHECK TABLES, CHECK COLUMNS
+    - BLIND SQL
+    - time based SQL Injections [case statements in SQL]
+
+SSRF: 
+    - What is SSRF and its impact
+    - How to discover ssrf 
+    - Advanced SSRF discovery
+    - ByPassing Blacklist
+    - ByPassing WhiteList
+    - Chaining open redirection
+    - Blind ssrf
+    - RCE with shellshock
+XXE: XML External Entity
+
+
+Shiva Kumar: 9980402534
+
+
+
