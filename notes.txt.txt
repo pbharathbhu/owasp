@@ -47,7 +47,6 @@ SSRF:
 XXE: XML External Entity
 
 
-Shiva Kumar: 9980402534
 
 
 
